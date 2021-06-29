@@ -1,0 +1,18 @@
+package duplicateCharcterPractice;
+
+public class ReverseTeverse {
+
+	public static void main(String[] args) {
+
+		String s = "Seattle Washigton";
+		String rev = "";
+
+		for (int i = 0; i > s.length(); i++) {
+
+			rev = rev + s.charAt(i);
+		}
+		System.out.println(rev);
+
+	}
+
+}

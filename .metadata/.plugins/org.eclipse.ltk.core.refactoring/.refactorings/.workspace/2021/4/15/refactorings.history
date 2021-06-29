@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;com.tekschool.retail&apos; to &apos;com.tekschool.retailCapstone&apos;&#x0D;&#x0A;- Original element: &apos;com.tekschool.retail&apos;&#x0D;&#x0A;- Renamed element: &apos;com.tekschool.retail&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;com.tekschool.retail&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=com.tekschool.retail" name="com.tekschool.retailCapstone" references="true" stamp="1618036846776" version="1.0"/>
+</session>

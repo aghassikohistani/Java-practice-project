@@ -1,0 +1,14 @@
+package oopsPratice;
+
+public class Corolla extends Car {
+
+	public void backupMethod() {
+
+		super.backupMethod();
+	}
+
+	public void radio() {
+		System.out.println("the Corolla classoverriden method");
+	}
+
+}

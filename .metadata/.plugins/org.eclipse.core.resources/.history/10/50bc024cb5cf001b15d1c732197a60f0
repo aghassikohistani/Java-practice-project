@@ -1,0 +1,28 @@
+package randomJavaPractice;
+
+public class RecursiveFunction {
+
+	public static void main(String[] args) {
+	
+
+	
+	  number(1);
+	}
+
+
+
+
+ public static void number (int num) {
+	 
+	 if(num>=100) {
+		 num++;
+		 System.out.println(num);
+		
+	 }
+	 
+	
+	 
+ }
+
+
+}

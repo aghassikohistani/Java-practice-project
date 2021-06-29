@@ -1,0 +1,26 @@
+package randomJavaPractice;
+
+public class UsersClass {
+
+	public static void main(String[] args) {
+		
+		
+		 numberPrinr(1);
+
+	}
+
+
+   public static void numberPrinr(int num) {
+	   
+	   if(num <=20) {
+		   System.out.println(num);
+		   num++;
+		   numberPrinr(num);
+	   }
+	   
+   }
+
+
+
+
+}

@@ -1,0 +1,38 @@
+package webDriverUtil;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class WebDriverUtilityClass {
+
+	private WebDriver driver;
+
+	public WebDriverUtilityClass(WebDriver driver) {
+
+		this.driver = driver;
+	}
+
+	public Alert waitFortAlert(int timeOut) {
+		WebDriverWait wait = new WebDriverWait(driver, timeOut);
+		return wait.until(ExpectedConditions.alertIsPresent());
+	}
+
+	public void accepAlert(int timeOut) {
+
+		waitFortAlert(timeOut).accept();
+	}
+
+	public void dismissALert(int timeOut) {
+
+		waitFortAlert(timeOut).dismiss();
+
+	}
+
+	public String getAlertText(int rimeOut) {
+		return waitFortAlert(rimeOut).getText();
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;FunctionsInJava.java&apos; to &apos;Com.JavaPractice/src/interviewQuestions&apos;&#x0D;&#x0A;- Original project: &apos;Com.JavaPractice&apos;&#x0D;&#x0A;- Destination element: &apos;Com.JavaPractice/src/interviewQuestions&apos;&#x0D;&#x0A;- Original element: &apos;naveenJavaBasics.FunctionsInJava.java&apos;" description="Copy compilation unit" destination="/src&lt;interviewQuestions" element1="/src&lt;naveenJavaBasics{FunctionsInJava.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1619336258316" units="1" version="1.0"/>
+</session>

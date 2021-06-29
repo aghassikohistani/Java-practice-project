@@ -1,0 +1,10 @@
+package popUpAertPractice;
+
+public class RediffMailPopUp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

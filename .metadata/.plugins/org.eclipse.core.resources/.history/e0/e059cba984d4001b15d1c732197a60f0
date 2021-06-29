@@ -1,0 +1,28 @@
+package xpathAxesConcept;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class ClassicCrmPro {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		WebDriverManager.chromedriver().setup();
+
+		WebDriver driver = new ChromeDriver();
+
+		driver.get("https://classic.freecrm.com/index.cfm?CFID=581034&CFTOKEN=adbcda56e5215da8-3B6A2331-D512-65"
+				+ "46-674707C51E41B861&jsessionid=a630764c3f7e7f9f1ada417af2e696a6c7a2");
+//
+//		driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("groupautomation");
+//		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("test@12345");
+//		driver.findElement(By.xpath("//input[@value='Login']")).click();
+		Thread.sleep(9000);
+		driver.findElement(By.xpath("//a[text()='Contacts']")).click();
+
+	}
+
+}

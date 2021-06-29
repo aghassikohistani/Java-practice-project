@@ -1,0 +1,19 @@
+package duplicateCharcterPractice;
+
+public class ArrayParrayTarraySarray {
+
+	public static void main(String[] args) {
+		
+		
+		String [] exGirl = {"Sodaba", "Amandeep", "Karima", "Shikha", "Amandeep", "Sodaba"}; 
+		
+		for (int i=0; i<exGirl.length; i++) {
+			for(int j=i+1; j<exGirl.length; j++) {
+				if(exGirl[i].equalsIgnoreCase(exGirl[j])) {}
+				System.out.println("the duplicate values are.." + exGirl[i]);
+			}
+		}
+
+	}
+
+}

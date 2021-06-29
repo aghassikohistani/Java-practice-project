@@ -1,0 +1,10 @@
+package browserWindowPopUpHandle;
+
+public class BrowserWindowHadler {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

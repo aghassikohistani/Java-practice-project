@@ -1,0 +1,27 @@
+package javaCollections;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class SetInterfaceConcept {
+
+	public static void main(String[] args) {
+
+		// 1) Duplicate elements are not allowed and insertion order is not preserved..
+		// 2) It also uses the concept of hash code, so search will happen very fast..
+
+		Set<String> v = new HashSet<String>();
+
+		v.add("Aghassi");
+		v.add("Rommel");
+		v.add("martin");
+
+		// System.out.println(v);
+
+		for (String e : v) {
+			System.out.println(e);
+		}
+
+	}
+
+}

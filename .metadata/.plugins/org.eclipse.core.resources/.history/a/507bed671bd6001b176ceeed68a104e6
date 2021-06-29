@@ -1,0 +1,29 @@
+package webTableConcept;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class PginationPractice {
+
+	public static void main(String[] args) {
+	
+		
+		
+		
+		
+		WebDriverManager.chromedriver().setup();
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("groupautomation");
+		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("test@12345");
+		driver.findElement(By.xpath("//input[@value='Login']")).click();
+		driver.switchTo().frame("mainpanel");
+		driver.findElement(By.xpath("//a[contains(text(),'Contacts')]")).click();
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package randomJavaPractice;
+
+public class AmazonLogin {
+
+	public static void main(String[] args) {
+
+		LoginPage login = new LoginPage("20234345643", "04/06/1988");
+
+		System.out.println(login.phNumber + "" + login.DOB);
+
+	}
+
+}

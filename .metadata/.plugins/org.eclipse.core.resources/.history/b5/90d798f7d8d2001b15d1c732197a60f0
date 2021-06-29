@@ -1,0 +1,21 @@
+package popUpAertPractice;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class AlertPractice {
+
+	public static void main(String[] args) {
+
+		WebDriverManager.chromedriver().setup();
+
+		WebDriver driver = new ChromeDriver();
+
+		driver.get("https://www.facebook.com/login/?next=https%3A" + "%2F%2Fwww.facebook.com%2Fpages%2Fcreat"
+				+ "e%2F%3Fref_type%3Dregistration_form");
+
+	}
+
+}

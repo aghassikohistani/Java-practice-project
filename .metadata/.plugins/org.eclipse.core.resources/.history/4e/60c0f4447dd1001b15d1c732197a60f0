@@ -1,0 +1,37 @@
+package oopsPratice;
+
+public class Function {
+
+	public static void main(String[] args) {
+
+		registration(12, "Aghassi", 'M', true);
+
+	}
+
+	public static int addition(int plus, int plus1) {
+
+		return plus + plus1;
+
+	}
+
+	public static void checkIn(int time, String checkIn) {
+
+	}
+
+	public static void voterIdCard(int age, String eligible) {
+
+		if (age >= 18 && eligible.equalsIgnoreCase(eligible)) {
+
+			System.out.println("please give him/her a chance");
+
+		}
+
+	}
+
+	public static void registration(int age, String address, char gender, boolean isAfghan) {
+
+		System.out.println("Registration completed");
+
+	}
+
+}
